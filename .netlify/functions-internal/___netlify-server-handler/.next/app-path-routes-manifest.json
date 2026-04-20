@@ -1,0 +1,12 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/comment/page": "/comment",
+  "/contact/page": "/contact",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/politique-de-confidentialite/page": "/politique-de-confidentialite",
+  "/trajets/[id]/page": "/trajets/[id]",
+  "/trajets/page": "/trajets",
+  "/villes/page": "/villes"
+}
