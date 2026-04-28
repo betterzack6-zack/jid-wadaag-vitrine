@@ -194,6 +194,7 @@ export default function TrajetsPage() {
                           month: "long",
                           hour: "2-digit",
                           minute: "2-digit",
+                          timeZone: "Africa/Djibouti",
                         })}
                       </p>
                       <p style={{ color: "#7A8FA8" }} className="text-sm mt-1">

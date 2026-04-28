@@ -175,9 +175,10 @@ export default function TripDetailPage() {
             day: "numeric",
             month: "long",
             year: "numeric",
+            timeZone: "Africa/Djibouti",
           })}{" "}
           à{" "}
-          {dateDepart.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })}
+          {dateDepart.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit", timeZone: "Africa/Djibouti" })}
         </p>
         <div className="mt-4 flex gap-4 flex-wrap">
           <span style={{ backgroundColor: "rgba(255,255,255,0.15)" }} className="px-3 py-1 rounded-full text-sm">
@@ -316,7 +317,7 @@ export default function TripDetailPage() {
                 {trip.villeDepart} → {trip.villeDestination}
               </span>
               <span style={{ color: "#7A8FA8" }} className="ml-2">
-                · {dateDepart.toLocaleDateString("fr-FR", { day: "numeric", month: "long" })}
+                · {dateDepart.toLocaleDateString("fr-FR", { day: "numeric", month: "long", timeZone: "Africa/Djibouti" })}
               </span>
             </div>
 
