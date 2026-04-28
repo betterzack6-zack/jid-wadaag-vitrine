@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <body className="min-h-screen flex flex-col antialiased">
+      <body className="min-h-screen flex flex-col antialiased" style={{ backgroundColor: "#162F5A" }}>
         <Navbar />
         <main className="pt-20 flex-1">{children}</main>
         <Footer />
