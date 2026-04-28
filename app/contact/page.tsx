@@ -6,7 +6,7 @@ export default function ContactPage() {
     );
 
   return (
-    <div className="max-w-3xl mx-auto px-6 py-16">
+    <div className="max-w-3xl mx-auto px-6 pt-36 pb-16">
       <div className="text-center mb-16">
         <h1 style={{ color: "#1B4F8A" }} className="text-4xl font-extrabold mb-4">
           Contactez-nous

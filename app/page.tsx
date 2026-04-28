@@ -40,7 +40,7 @@ export default function HomePage() {
       {/* Hero */}
       <section
         style={{ background: "linear-gradient(135deg, #1B4F8A 0%, #162F5A 100%)" }}
-        className="px-6 py-24 text-center text-white"
+        className="px-6 pt-44 pb-24 text-center text-white"
       >
         <div className="max-w-3xl mx-auto">
           <div
